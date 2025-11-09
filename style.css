@@ -1,0 +1,8 @@
+:root{--bg:#f6f7fb;--accent:#0b69ff}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;background:var(--bg);color:#111}
+.site-header{background:white;padding:2rem;text-align:center;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.site-header nav a{margin:0 .5rem;text-decoration:none;color:var(--accent)}
+main{max-width:900px;margin:2rem auto;padding:0 1rem}
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.card{background:white;padding:1rem;border-radius:10px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+footer{text-align:center;padding:1rem 0;color:#666}
